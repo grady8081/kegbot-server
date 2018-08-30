@@ -38,7 +38,7 @@ DEPENDENCIES = [
     'pytz',
     'redis',
     'rednose',
-    'requests==2.5.1',
+    'requests==2.11.1',
     'requests-mock',
     'requests_oauthlib',
     'tweepy',

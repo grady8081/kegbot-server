@@ -199,6 +199,9 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'verbose',
         },
+        'null': {
+            'class': 'logging.NullHandler',
+        },
         'redis': {
             'level': 'INFO',
             'class': 'pykeg.logging.handlers.RedisListHandler',
